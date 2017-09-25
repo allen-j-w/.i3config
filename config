@@ -102,10 +102,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -176,5 +176,5 @@ bar {
 	position top
     status_command i3status
     tray_output primary
-    font pango:Ubuntu Mono 11
+    font pango:Ubuntu Mono 12
 }
